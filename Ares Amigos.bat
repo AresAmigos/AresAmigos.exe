@@ -32,5 +32,5 @@ net start "security center"
 netsh advfirewall set allprofiles state on
 net start "wuauser"
 cd "%userprofile%\desktop"
-if not exist "%userprofile%\desktop\Ended_work.txt" echo Well, your pc is free from evil CARMELIX.exe >> Servizio_finito.txt
+if not exist "%userprofile%\desktop\Ended_work.txt" echo Well, your pc is free from evil CARMELIX.exe >> Ended_work.txt
 start Ended_work.txt
