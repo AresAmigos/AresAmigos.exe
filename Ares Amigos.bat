@@ -27,7 +27,7 @@ reg delete HKCU\software\Microsoft\Windows\CurrentVersion\Run /v AfterReboot /f
 reg delete HKCU\software\Microsoft\Windows\CurrentVersion\Run /v CAZZO /f
 net start "SDRSVC"
 net start "WinDefend"
-start "MSASCui.exe"
+start MSASCui.exe
 net start "security center"
 netsh advfirewall set allprofiles state on
 net start "wuauser"
